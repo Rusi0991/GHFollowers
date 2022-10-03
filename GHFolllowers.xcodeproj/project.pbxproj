@@ -14,6 +14,7 @@
 		5711AE5B28E66AA100AD1E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5711AE5928E66AA100AD1E5A /* LaunchScreen.storyboard */; };
 		5711AE6528E67CF800AD1E5A /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE6428E67CF800AD1E5A /* FavoritesListVC.swift */; };
 		5711AE6728E67D8D00AD1E5A /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE6628E67D8D00AD1E5A /* SearchVC.swift */; };
+		5711AE6928EA5D8F00AD1E5A /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE6828EA5D8F00AD1E5A /* GFButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5711AE5C28E66AA100AD1E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5711AE6428E67CF800AD1E5A /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		5711AE6628E67D8D00AD1E5A /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		5711AE6828EA5D8F00AD1E5A /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				5711AE6428E67CF800AD1E5A /* FavoritesListVC.swift */,
 				5711AE6628E67D8D00AD1E5A /* SearchVC.swift */,
 				5711AE5428E66A9F00AD1E5A /* Main.storyboard */,
+				5711AE6828EA5D8F00AD1E5A /* GFButton.swift */,
 				5711AE5728E66AA100AD1E5A /* Assets.xcassets */,
 				5711AE5928E66AA100AD1E5A /* LaunchScreen.storyboard */,
 				5711AE5C28E66AA100AD1E5A /* Info.plist */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5711AE6728E67D8D00AD1E5A /* SearchVC.swift in Sources */,
+				5711AE6928EA5D8F00AD1E5A /* GFButton.swift in Sources */,
 				5711AE6528E67CF800AD1E5A /* FavoritesListVC.swift in Sources */,
 				5711AE4F28E66A9F00AD1E5A /* AppDelegate.swift in Sources */,
 				5711AE5128E66A9F00AD1E5A /* SceneDelegate.swift in Sources */,
