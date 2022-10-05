@@ -72,23 +72,55 @@
 		5711AE4D28E66A9F00AD1E5A /* GHFolllowers */ = {
 			isa = PBXGroup;
 			children = (
-				5711AE4E28E66A9F00AD1E5A /* AppDelegate.swift */,
-				5711AE5028E66A9F00AD1E5A /* SceneDelegate.swift */,
-				5711AE6428E67CF800AD1E5A /* FavoritesListVC.swift */,
+				5711AE7828EE3EC300AD1E5A /* Extensions */,
+				5711AE7728EE3DD000AD1E5A /* Custom Views */,
+				5711AE7628EE3D5A00AD1E5A /* Screens */,
+				5711AE7A28EE3F8700AD1E5A /* Support */,
+			);
+			path = GHFolllowers;
+			sourceTree = "<group>";
+		};
+		5711AE7628EE3D5A00AD1E5A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
 				5711AE6628E67D8D00AD1E5A /* SearchVC.swift */,
+				5711AE6428E67CF800AD1E5A /* FavoritesListVC.swift */,
 				5711AE6C28EBEE5B00AD1E5A /* FollowerListVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5711AE7728EE3DD000AD1E5A /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
 				5711AE7228ECF3EC00AD1E5A /* GFAlertVC.swift */,
-				5711AE5428E66A9F00AD1E5A /* Main.storyboard */,
 				5711AE6828EA5D8F00AD1E5A /* GFButton.swift */,
 				5711AE6A28EA63B800AD1E5A /* GFTextField.swift */,
-				5711AE6E28ECE1E000AD1E5A /* GFTitleLabel.swift */,
 				5711AE7028ECF18D00AD1E5A /* GFBodyLabel.swift */,
+				5711AE6E28ECE1E000AD1E5A /* GFTitleLabel.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		5711AE7828EE3EC300AD1E5A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5711AE7428EE37C400AD1E5A /* UIViewController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5711AE7A28EE3F8700AD1E5A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				5711AE4E28E66A9F00AD1E5A /* AppDelegate.swift */,
+				5711AE5028E66A9F00AD1E5A /* SceneDelegate.swift */,
+				5711AE5428E66A9F00AD1E5A /* Main.storyboard */,
 				5711AE5728E66AA100AD1E5A /* Assets.xcassets */,
 				5711AE5928E66AA100AD1E5A /* LaunchScreen.storyboard */,
 				5711AE5C28E66AA100AD1E5A /* Info.plist */,
-				5711AE7428EE37C400AD1E5A /* UIViewController+Ext.swift */,
 			);
-			path = GHFolllowers;
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
