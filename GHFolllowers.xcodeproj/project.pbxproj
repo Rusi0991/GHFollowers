@@ -20,6 +20,7 @@
 		5711AE6F28ECE1E000AD1E5A /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE6E28ECE1E000AD1E5A /* GFTitleLabel.swift */; };
 		5711AE7128ECF18D00AD1E5A /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE7028ECF18D00AD1E5A /* GFBodyLabel.swift */; };
 		5711AE7328ECF3EC00AD1E5A /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE7228ECF3EC00AD1E5A /* GFAlertVC.swift */; };
+		5711AE7528EE37C400AD1E5A /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE7428EE37C400AD1E5A /* UIViewController+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		5711AE6E28ECE1E000AD1E5A /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		5711AE7028ECF18D00AD1E5A /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		5711AE7228ECF3EC00AD1E5A /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
+		5711AE7428EE37C400AD1E5A /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				5711AE5728E66AA100AD1E5A /* Assets.xcassets */,
 				5711AE5928E66AA100AD1E5A /* LaunchScreen.storyboard */,
 				5711AE5C28E66AA100AD1E5A /* Info.plist */,
+				5711AE7428EE37C400AD1E5A /* UIViewController+Ext.swift */,
 			);
 			path = GHFolllowers;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				5711AE6B28EA63B800AD1E5A /* GFTextField.swift in Sources */,
 				5711AE6728E67D8D00AD1E5A /* SearchVC.swift in Sources */,
 				5711AE6928EA5D8F00AD1E5A /* GFButton.swift in Sources */,
+				5711AE7528EE37C400AD1E5A /* UIViewController+Ext.swift in Sources */,
 				5711AE6528E67CF800AD1E5A /* FavoritesListVC.swift in Sources */,
 				5711AE7328ECF3EC00AD1E5A /* GFAlertVC.swift in Sources */,
 				5711AE7128ECF18D00AD1E5A /* GFBodyLabel.swift in Sources */,
