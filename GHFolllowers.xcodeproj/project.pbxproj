@@ -27,6 +27,7 @@
 		5711AE8528EFF41100AD1E5A /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE8428EFF41100AD1E5A /* ErrorMessage.swift */; };
 		5711AE8828F2A3DC00AD1E5A /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE8728F2A3DC00AD1E5A /* FollowerCell.swift */; };
 		5711AE8A28F2A51400AD1E5A /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE8928F2A51400AD1E5A /* GFAvatarImageView.swift */; };
+		57B4425528F9E3F000369CBE /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B4425428F9E3F000369CBE /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		5711AE8428EFF41100AD1E5A /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		5711AE8728F2A3DC00AD1E5A /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		5711AE8928F2A51400AD1E5A /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
+		57B4425428F9E3F000369CBE /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				5711AE8428EFF41100AD1E5A /* ErrorMessage.swift */,
+				57B4425428F9E3F000369CBE /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				5711AE6728E67D8D00AD1E5A /* SearchVC.swift in Sources */,
 				5711AE6928EA5D8F00AD1E5A /* GFButton.swift in Sources */,
 				5711AE7528EE37C400AD1E5A /* UIViewController+Ext.swift in Sources */,
+				57B4425528F9E3F000369CBE /* UIHelper.swift in Sources */,
 				5711AE8A28F2A51400AD1E5A /* GFAvatarImageView.swift in Sources */,
 				5711AE6528E67CF800AD1E5A /* FavoritesListVC.swift in Sources */,
 				5711AE7328ECF3EC00AD1E5A /* GFAlertVC.swift in Sources */,
