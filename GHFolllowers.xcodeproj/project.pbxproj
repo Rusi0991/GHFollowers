@@ -24,12 +24,12 @@
 		5711AE7D28EF7EE100AD1E5A /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE7C28EF7EE100AD1E5A /* Follower.swift */; };
 		5711AE7F28EF808900AD1E5A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE7E28EF808900AD1E5A /* User.swift */; };
 		5711AE8228EF8DD400AD1E5A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE8128EF8DD400AD1E5A /* NetworkManager.swift */; };
-		5711AE8528EFF41100AD1E5A /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE8428EFF41100AD1E5A /* ErrorMessage.swift */; };
 		5711AE8828F2A3DC00AD1E5A /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE8728F2A3DC00AD1E5A /* FollowerCell.swift */; };
 		5711AE8A28F2A51400AD1E5A /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5711AE8928F2A51400AD1E5A /* GFAvatarImageView.swift */; };
 		57B4425528F9E3F000369CBE /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B4425428F9E3F000369CBE /* UIHelper.swift */; };
 		57B4425D290335AC00369CBE /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B4425C290335AC00369CBE /* GFEmptyStateView.swift */; };
 		57B4425F29090B5400369CBE /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B4425E29090B5400369CBE /* UserInfoVC.swift */; };
+		57B442612909AB2600369CBE /* GFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B442602909AB2600369CBE /* GFError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,12 +52,12 @@
 		5711AE7C28EF7EE100AD1E5A /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		5711AE7E28EF808900AD1E5A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		5711AE8128EF8DD400AD1E5A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		5711AE8428EFF41100AD1E5A /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		5711AE8728F2A3DC00AD1E5A /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		5711AE8928F2A51400AD1E5A /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		57B4425428F9E3F000369CBE /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		57B4425C290335AC00369CBE /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		57B4425E29090B5400369CBE /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
+		57B442602909AB2600369CBE /* GFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,8 +166,8 @@
 		5711AE8328EFF3D400AD1E5A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				5711AE8428EFF41100AD1E5A /* ErrorMessage.swift */,
 				57B4425428F9E3F000369CBE /* UIHelper.swift */,
+				57B442602909AB2600369CBE /* GFError.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -311,8 +311,8 @@
 				5711AE6528E67CF800AD1E5A /* FavoritesListVC.swift in Sources */,
 				5711AE7328ECF3EC00AD1E5A /* GFAlertVC.swift in Sources */,
 				5711AE8828F2A3DC00AD1E5A /* FollowerCell.swift in Sources */,
-				5711AE8528EFF41100AD1E5A /* ErrorMessage.swift in Sources */,
 				5711AE7128ECF18D00AD1E5A /* GFBodyLabel.swift in Sources */,
+				57B442612909AB2600369CBE /* GFError.swift in Sources */,
 				5711AE7D28EF7EE100AD1E5A /* Follower.swift in Sources */,
 				5711AE6F28ECE1E000AD1E5A /* GFTitleLabel.swift in Sources */,
 				57B4425D290335AC00369CBE /* GFEmptyStateView.swift in Sources */,
