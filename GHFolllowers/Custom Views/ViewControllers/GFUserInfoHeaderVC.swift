@@ -32,6 +32,7 @@ class GFUserInfoHeaderVC: UIViewController {
         super.viewDidLoad()
         addSubviews()
         layoutUI()
+        configureUIElements()
 
     }
     
